@@ -827,6 +827,10 @@ color: rgba(46, 47, 66, 0.4);
    border-color: #4d5ae5;
 }
 
+.form-textarea {
+   margin-bottom: 16px;
+}
+
 textarea::placeholder {
    color: rgba(46, 47, 66, 0.4);
 }
