@@ -730,10 +730,11 @@ visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-btn:focus {
    background-color: #404bbf;
    border: none;
+
 }
 
 .modal-btn:hover .modal-btn-icon,
-.modal-btn:active .modal-btn-icon {
+.modal-btn:focus .modal-btn-icon {
    fill: #fff;
    
 }
@@ -827,7 +828,7 @@ color: rgba(46, 47, 66, 0.4);
    border-color: #4d5ae5;
 }
 
-.form-textarea {
+.textarea {
    margin-bottom: 16px;
 }
 
@@ -911,6 +912,11 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
+
+}
+
+.checkbox {
+margin-bottom: 24px;
 }
 
 .visually-hidden {
